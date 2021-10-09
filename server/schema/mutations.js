@@ -39,6 +39,7 @@ const mutation = new GraphQLObjectType({
       type: SongType,
       args: { id: { type: GraphQLID } },
       resolve(parentValue, { id }) {
+        console.log('removing',id)
         return Song.remove({ _id: id });
       }
     }
