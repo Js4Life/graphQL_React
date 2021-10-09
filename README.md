@@ -1,4 +1,4 @@
-# graphQL_React
+# graphQL_React checkout 'MASTER' branch
 Graph QL with react.js
 
 Perform "npm run dev"
